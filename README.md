@@ -1,1 +1,1 @@
-# Hands on materiall for Azure x-plat CLI and Node SDK
+# Material for Azure x-plat CLI and Node SDK Hands On Lab
