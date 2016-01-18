@@ -69,3 +69,7 @@ node_modules
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Azure ARM Parameter file #
+######################
+azuredeploy.parameters.test.json

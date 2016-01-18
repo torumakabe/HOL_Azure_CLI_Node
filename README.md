@@ -54,7 +54,13 @@ By default, the Azure CLI starts in the service management mode (asm mode). Type
 References:
 * [Connect to an Azure subscription from the Azure Command-Line Interface (Azure CLI)](https://azure.microsoft.com/en-us/documentation/articles/xplat-cli-connect/#use-the-log-in-method)
 
-## 
+## Deploy VM
+    
+    cd deployLinux
+    
+    azure group create HOL2 -l "Japan East"
+    
+    azure group deployment create HOL2 dep01 -f ./azuredeploy.json -e ./azuredeploy.parameters.json
 
 References:
 * [Deploy and manage virtual machines by using Azure Resource Manager templates and the Azure CLI](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-deploy-rmtemplates-azure-cli/)

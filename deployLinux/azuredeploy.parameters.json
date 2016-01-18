@@ -5,6 +5,9 @@
     "newStorageAccountName": {
       "value": "yourStorageAccount"
     },
+    "location": {
+      "value": "Japan East"
+    },
     "adminUsername": {
       "value": "yourName"
     },
