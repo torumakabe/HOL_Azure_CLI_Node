@@ -108,7 +108,7 @@ References:
 
 ## Create a Node.js application
 
-On your VM in Azure, clone some app files.
+**On your VM in Azure**, clone some app files.
 
     git clone https://github.com/ToruMakabe/HOL_Azure_CLI_Node.git
     
