@@ -15,7 +15,7 @@
       "value": "yourPassword"
     },
     "dnsNameForPublicIP": {
-      "value": "yourDNSName"
+      "value": "yourDNSNameForPublicIP"
     }
   }
 }
