@@ -11,6 +11,9 @@
     * Node.js and npm - [Downloads](https://nodejs.org/en/download/)
     * SSH Client
     * Git
+    * Tested on
+        * Windows 10, node 4.1.2, npm 2.14.4
+        * Mac OS X
     
 ## Part 1 - Install Azure x-plat  CLI
 **do not use OS-specific installer packages, but use npm**
@@ -64,3 +67,16 @@ References:
 
 References:
 * [Deploy and manage virtual machines by using Azure Resource Manager templates and the Azure CLI](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-deploy-rmtemplates-azure-cli/)
+
+## Create a Storage Account
+
+Make storage account to store files for application. Change storage account name the following  from yournamehol2 to **yourname**hol2 as unique identifier.
+
+    azure storage account create yournamehol2 -g HOL2 -l "Japan East" --type LRS
+
+References:
+* [Using the Azure CLI with Azure Storage](https://azure.microsoft.com/en-us/documentation/articles/storage-azure-cli/)
+
+## Create a Node.js application
+
+    npm install azure-storage nconf

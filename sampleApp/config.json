@@ -1,0 +1,7 @@
+{
+    "STORAGE_NAME": "yourstorageaccount",
+    "STORAGE_KEY": "yourstoragekey",
+    "CONTAINER_NAME": "yourcontainername",
+    "FILE_NAME": "yourfile",
+    "THREAD_COUNT": 10
+}

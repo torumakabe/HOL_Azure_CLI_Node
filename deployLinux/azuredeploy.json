@@ -199,9 +199,9 @@
         "typeHandlerVersion": "1.4",
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/ToruMakabe/HOL_Azure_CLI_Node/master/deployLinux/install_apache.sh"
+            "https://raw.githubusercontent.com/ToruMakabe/HOL_Azure_CLI_Node/master/deployLinux/setup.sh"
           ],
-          "commandToExecute": "sh install_apache.sh"
+          "commandToExecute": "sh setup.sh"
         }
       }
     }
