@@ -64,13 +64,13 @@ Download repo onto your client by Git. If you don't have Git, download it as zip
     
     cd HOL_Azure_CLI_Nod/deployLinux
     
-    azure group create HOL2 -l "Japan East"
+    azure group create HOL3 -l "Japan East"
     
 Edit parameter file "azuredeploy.parameters.json" to specify your unique parameters. (newStragaAccountname, location, adminUsername, adminPassword, dnsNameForPublicIP)
 
 After that, run the following command to create VM.    
  
-    azure group deployment create HOL2 dep01 -f ./azuredeploy.json -e ./azuredeploy.parameters.json
+    azure group deployment create HOL3 dep01 -f ./azuredeploy.json -e ./azuredeploy.parameters.json
     
 In this deployment, you can not only create VM, storage and network, but also install and configure packages such as apache, node, git. Please see azuredeploy.json and setup.sh in the directory.
 
@@ -89,19 +89,19 @@ References:
 
 ## Create a Storage Account and Blob Container for large files used in apps
 
-Make storage account to store files for application. Change storage account name the following  from yournamehol2 to **yourname**hol2 as unique identifier.
+Make storage account to store files for application. Change storage account name the following  from yournamehol3 to **yourname**hol3 as unique identifier.
 
 **Run the following commands on your client, not on VM in Azure**
 
-    azure storage account create **yournamehol2** -g HOL2 -l "Japan East" --type LRS
+    azure storage account create **yournamehol3** -g HOL3 -l "Japan East" --type LRS
 
 Get your storage account key. Keep character string after "AccountKey=" in the output.
 
-    azure storage account connectionstring show **yournamehol2**
+    azure storage account connectionstring show **yournamehol3**
     
 And, create Blob container.    
     
-    azure storage container create work -a **yournamehol2** -k "**youraccountkey**"
+    azure storage container create work -a **yournamehol3** -k "**youraccountkey**"
 
 References:
 * [Using the Azure CLI with Azure Storage](https://azure.microsoft.com/en-us/documentation/articles/storage-azure-cli/)
@@ -136,3 +136,10 @@ Enjoy.
 
 References:
 [How to use Blob storage from Node.js](https://azure.microsoft.com/en-us/documentation/articles/storage-nodejs-how-to-use-blob-storage/)
+
+## Other references
+* [SDKs](https://azure.microsoft.com/en-us/documentation/)
+* [Azure Resoure Manager Overview](https://azure.microsoft.com/en-us/documentation/articles/resource-group-overview/)
+* [Azure QuickStart ARM Templates](https://azure.microsoft.com/en-us/documentation/templates/)
+* [Create a template deployment](https://msdn.microsoft.com/en-us/library/azure/dn790564.aspx)
+* [Azure Storage Explorer](http://storageexplorer.com/)
