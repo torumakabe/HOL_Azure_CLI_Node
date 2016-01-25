@@ -75,7 +75,7 @@ In this deployment, you can not only create VM, storage and network, but also in
 
 To make sure the results of this configuration, log into the VM. If you are on Windows, use other telnet client e.g. putty, teraterm.
 
-    ssh **yourdnsNameForPublicIP**.japaneast.cloudapp.azure.com
+    ssh **adminUserName**@**yourdnsNameForPublicIP**.japaneast.cloudapp.azure.com
     
 After logging in, check the status of apache by curl. You can do it on web browser also.
  
