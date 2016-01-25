@@ -5,7 +5,7 @@
 * Understand how to use a large blob file from your apps
 * Enjoy hacking on Azure!
 
-## Prerequisite
+## Prerequisites
 
 * Azure Subscription
     * If you don't have it, please see [the page](https://azure.microsoft.com/en-us/pricing/free-trial/) to get free one-month trial credits.
