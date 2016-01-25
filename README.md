@@ -1,5 +1,4 @@
-# Material for Azure x-plat CLI and Node SDK Hands On Lab
-**Work In Progress**
+# Material for Azure x-plat CLI and Node.js SDK Hands On Lab
 
 ## Objectives
 * Learn CLI & SDK for automation and efficient operation
