@@ -66,13 +66,13 @@ Download repo onto your client by Git. If you don't have Git, download it as zip
    
 Create a Resource Group for this lab
    
-    azure group create HOL3 -l "Japan East"
+    azure group create **yourname**HOL3 -l "Japan East"
     
 Edit parameter file "azuredeploy.parameters.json" to specify your unique parameters. (newStragaAccountname, location, adminUsername, adminPassword, dnsNameForPublicIP)
 
 After that, run the following command to create VM.    
  
-    azure group deployment create HOL3 dep01 -f ./azuredeploy.json -e ./azuredeploy.parameters.json
+    azure group deployment create **yourname**HOL3 dep01 -f ./azuredeploy.json -e ./azuredeploy.parameters.json
     
 In this deployment, you can not only create VM, storage and network, but also install and configure packages such as apache, node, git. Please see azuredeploy.json and setup.sh in the directory.
 
@@ -95,7 +95,7 @@ Make storage account to store files for application. Change storage account name
 
 **Run the following commands on your client, not on VM in Azure**
 
-    azure storage account create **yournamehol3** -g HOL3 -l "Japan East" --type LRS
+    azure storage account create **yournamehol3** -g **yourname**HOL3 -l "Japan East" --type LRS
 
 Get your storage account key. Keep character string after "AccountKey=" in the output.
 
