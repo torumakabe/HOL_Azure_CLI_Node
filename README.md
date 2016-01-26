@@ -62,7 +62,7 @@ Download repo onto your client by Git. If you don't have Git, download it as zip
     
     git clone https://github.com/ToruMakabe/HOL_Azure_CLI_Node.git 
     
-    cd HOL_Azure_CLI_Nod/deployLinux
+    cd HOL_Azure_CLI_Node/deployLinux
    
 Create a Resource Group for this lab
    
