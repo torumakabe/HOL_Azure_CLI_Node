@@ -11,7 +11,7 @@
     * If you don't have it, please see [the page](https://azure.microsoft.com/en-us/pricing/free-trial/) to get free one-month trial credits.
     
 * Client
-    * Mac OS X or Windows or Linux
+    * Windows or Mac OS X or Linux
     * Terminal (on Windows, use Powershell prompt)
     * SSH Client (on Wndows, use Putty, Teraterm, etc)
     * Git (on Windows, use Github for Windows, etc)
