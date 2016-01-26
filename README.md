@@ -11,7 +11,7 @@
     * If you don't have it, please see [the page](https://azure.microsoft.com/en-us/pricing/free-trial/) to get free one-month trial credits.
     
 * Client
-    * Mac OS X or Windows
+    * Mac OS X or Windows or Linux
     * Terminal (on Windows, use Powershell prompt)
     * SSH Client (on Wndows, use Putty, Teraterm, etc)
     * Git (on Windows, use Github for Windows, etc)
@@ -24,6 +24,7 @@ The following installer packages are available:
 
 * [Windows Installer](http://go.microsoft.com/?linkid=9828653&clcid=0x409)
 * [Mac OS X Installer](http://go.microsoft.com/fwlink/?linkid=252249&clcid=0x409)
+* [Linux Installer](http://go.microsoft.com/fwlink/?linkid=253472&clcid=0x409)
 
 Once the Azure CLI has been installed, you will be able to run the azure command from your command-line user interface (Bash, Terminal, Command prompt, and so on). For example, to run the help command, type the following:
 
