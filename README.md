@@ -1,4 +1,4 @@
-# Material for Azure x-plat CLI and Node.js SDK Hands On Lab
+# Azure x-plat CLI and Node.js SDK Hands On Lab
 
 ## Objectives
 * Learn CLI & SDK for automation and efficient operation
@@ -62,7 +62,9 @@ Download repo onto your client by Git. If you don't have Git, download it as zip
     git clone https://github.com/ToruMakabe/HOL_Azure_CLI_Node.git 
     
     cd HOL_Azure_CLI_Nod/deployLinux
-    
+   
+Create a Resource Group for this lab
+   
     azure group create HOL3 -l "Japan East"
     
 Edit parameter file "azuredeploy.parameters.json" to specify your unique parameters. (newStragaAccountname, location, adminUsername, adminPassword, dnsNameForPublicIP)
@@ -107,7 +109,7 @@ References:
 
 ## Create a Node.js application
 
-**On your VM in Azure**, clone some app files.
+**On your VM in Azure**, clone some app files and install some npm packages such as Node.js SDK for Azure.
 
     git clone https://github.com/ToruMakabe/HOL_Azure_CLI_Node.git
     
