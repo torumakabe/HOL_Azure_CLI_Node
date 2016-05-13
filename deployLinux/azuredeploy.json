@@ -43,10 +43,10 @@
     },
     "ubuntuOSVersion": {
       "type": "string",
-      "defaultValue": "14.04.3-LTS",
+      "defaultValue": "14.04.4-LTS",
       "allowedValues": [
         "12.04.5-LTS",
-        "14.04.3-LTS",
+        "14.04.4-LTS",
         "15.04",
         "15.10"
       ],
@@ -74,6 +74,8 @@
     "subnetRef": "[concat(variables('vnetID'),'/subnets/',variables('subnetName'))]"
   },
   "resources": [
+    {"type": "mi",
+    },
     {
       "type": "Microsoft.Storage/storageAccounts",
       "name": "[parameters('newStorageAccountName')]",
